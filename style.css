@@ -1,0 +1,25 @@
+*{}
+
+#boxbody{
+    width:1080px;
+    height: 600px;
+    background-color: brown;
+    position: absolute;
+    top:0;
+    left:140px;
+    border-style:ridge;
+    border-color: forestgreen;
+}
+
+#boxpicture{
+    width:600px;
+    height: 400px;
+    margin-left:220px;
+    position: absolute;
+    top:0;
+    background-size:600px 400px;
+    background-repeat: no-repeat;
+    margin-top:10px;
+    border-style: groove;
+    border-color: whitesmoke;
+}
