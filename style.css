@@ -1,25 +1,64 @@
-*{}
-
-#boxbody{
-    width:1080px;
-    height: 600px;
-    background-color: brown;
-    position: absolute;
-    top:0;
-    left:140px;
-    border-style:ridge;
-    border-color: forestgreen;
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
 }
 
-#boxpicture{
-    width:600px;
-    height: 400px;
-    margin-left:220px;
-    position: absolute;
-    top:0;
-    background-size:600px 400px;
+h1 {
+    text-shadow: 0 3px 3px #06283D;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/kiki.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-top:10px;
-    border-style: groove;
-    border-color: whitesmoke;
+    background-position: center;
+    filter: blur(8px);
+    padding: 50px;
+    position: absolute;
+}
+
+.container {
+    width:1080px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: rgb(244,	238, 169, 0.6) ;
+    margin: 50px auto 0 auto;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: forestgreen;
+    padding: 20px;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation > input[type=button] {
+    border: solid #94B49F 1px;
+    background-color: #FEFEFE;
+    color: black;
+    margin: 10px 5px 0 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #519259;
+}
+.navigation > input[type=button]:active {
+    background-color: #BAD7DF;
+    color: whitesmoke;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
 }
