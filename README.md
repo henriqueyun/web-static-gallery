@@ -1,4 +1,4 @@
-# myjqGallery
-Galeria estática de fotos com JQuery. 
+# Galeria Web
+Exemplo de Galeria de Fotos Estáticas para web.
 
-P.S.: Foi desenvolvido para praticar, em uma época que eu já possuía conhecimentos de programação mas não entendia muito de Web (HTML, CSS, Javascript e JQuery).
+Observação: Na branch jquery está a primeira versão desse projeto que fiz, quando tinha acabado de aprender programação e comecei a estudar web.
